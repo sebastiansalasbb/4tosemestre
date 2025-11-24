@@ -1,3 +1,8 @@
 body {
   background-color: #212529 !important;
 }
+
+
+img{
+  max-width: 500px !important;
+}

@@ -978,7 +978,231 @@ const estadisticaDB = [
   ],
   respuestaCorrecta: 1,
   explicacion: "Los números mayores o iguales que 5 son 5 y 6: 2 casos favorables de 6."
+}, 
+{
+  id: 83,
+  pregunta: "¿Qué es una distribución de datos en estadística?",
+  respuestas: [
+    "Un tipo de operación matemática",
+    "La forma en que se organizan y repiten los valores de un conjunto de datos",
+    "Un tipo de gráfico circular",
+    "Una fórmula para calcular promedios"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Una distribución describe cómo se repiten y se organizan los valores dentro de un conjunto de datos."
+},
+{
+  id: 84,
+  pregunta: "¿Para qué sirve un histograma?",
+  imagen: "/Histogramasimetrico.png",
+  respuestas: [
+    "Para mostrar la relación entre dos variables",
+    "Para representar la forma en que se distribuyen los datos en intervalos",
+    "Para calcular la mediana automáticamente",
+    "Para ordenar datos alfabéticamente"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "El histograma agrupa los datos en intervalos y muestra su frecuencia mediante barras."
+},
+{
+  id: 85,
+  pregunta: "Observa el siguiente histograma simplificado:¿Qué forma general tiene la distribución?",
+  imagen: "/Histogramasimetrico.png",
+  respuestas: [
+    "Simétrica",
+    "Asimétrica a la derecha (positiva)",
+    "Asimétrica a la izquierda (negativa)",
+    "No se puede determinar"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "Las frecuencias crecen hacia el centro y disminuyen de forma similar a ambos lados, lo que indica simetría."
+},
+{
+  id: 86,
+  pregunta: "¿Qué es la simetría en una distribución de datos?",
+  respuestas: [
+    "La cantidad total de datos",
+    "Qué tan equilibrados están los datos alrededor de la media",
+    "El número de valores máximos",
+    "La diferencia entre el valor mayor y el menor"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "La simetría mide qué tan equilibrados están los datos respecto a la media."
+},
+{
+  id: 87,
+  pregunta: "Si una distribución es simétrica, entonces:",
+  respuestas: [
+    "La media es mayor que la mediana",
+    "La media es menor que la mediana",
+    "La media y la mediana son aproximadamente iguales",
+    "No existe mediana"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En una distribución simétrica, la media y la mediana suelen coincidir o ser muy parecidas."
+},
+{
+  id: 88,
+  pregunta: "Observa la siguiente forma. Esta distribución es:",
+  imagen: "/asimetriapositiva.png",
+  respuestas: [
+    "Simétrica",
+    "Asimétrica positiva",
+    "Asimétrica negativa",
+    "Uniforme"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Cuando la cola de la distribución se extiende hacia la derecha, la asimetría es positiva."
+},
+{
+  id: 89,
+  pregunta: "Cuando la asimetría es positiva, ¿qué ocurre normalmente?",
+  respuestas: [
+    "La media es menor que la mediana",
+    "La media es mayor que la mediana",
+    "La media es igual a cero",
+    "No existe relación entre media y mediana"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "En una asimetría positiva, la cola se extiende hacia la derecha y la media suele ser mayor que la mediana."
+},
+{
+  id: 90,
+  pregunta: "Observa la siguiente forma. Esta distribución es:",
+   imagen: "/asimetrianegativa.png",
+  respuestas: [
+    "Simétrica",
+    "Asimétrica positiva",
+    "Asimétrica negativa",
+    "Normal perfecta"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Cuando la cola se extiende hacia la izquierda, la asimetría es negativa."
+},
+{
+  id: 91,
+  pregunta: "Cuando la asimetría es negativa, normalmente se cumple que:",
+  respuestas: [
+    "La media es mayor que la mediana",
+    "La media es igual a la moda",
+    "La media es menor que la mediana",
+    "No se puede comparar"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "En una asimetría negativa, la media suele ser menor que la mediana."
+},
+{
+  id: 92,
+  pregunta: "¿Qué es la curtosis?",
+  respuestas: [
+    "Una medida que indica qué tan puntiaguda o achatada es una distribución",
+    "La cantidad total de datos",
+    "La diferencia entre media y mediana",
+    "Un tipo de histograma"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La curtosis describe si la distribución es más puntiaguda o más plana que una distribución normal."
+},
+{
+  id: 93,
+  pregunta: "Observa la forma:Este tipo de distribución es:",
+  imagen: "/leptocurtica.png",
+  respuestas: [
+    "Platicúrtica",
+    "Mesocúrtica",
+    "Leptocúrtica",
+    "Asimétrica"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Una forma muy alta y estrecha corresponde a una distribución leptocúrtica."
+},
+{
+  id: 94,
+  pregunta: "Una distribución mesocúrtica es aquella que:",
+  imagen: "/mesocurtica.png",
+  respuestas: [
+    "Es más plana que la normal",
+    "Es más puntiaguda que la normal",
+    "Tiene forma similar a una distribución normal",
+    "No tiene media"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "La mesocúrtica tiene una forma similar a la distribución normal."
+},
+{
+  id: 95,
+  pregunta: "Observa la forma: Este tipo de distribución es:",
+    imagen: "/platicurtica.png",
+  respuestas: [
+    "Leptocúrtica",
+    "Mesocúrtica",
+    "Platicúrtica",
+    "Bimodal"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Una distribución más baja y más ancha se denomina platicúrtica."
+},
+{
+  id: 96,
+  pregunta: "¿Qué indican las medidas de tendencia central como la media y la mediana cuando hablamos de distribución?",
+  respuestas: [
+    "La forma del histograma",
+    "El valor alrededor del cual se concentran los datos",
+    "La cantidad de datos ausentes",
+    "La diferencia entre los valores extremos"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Las medidas de tendencia central indican el valor central o típico de los datos."
+},
+{
+  id: 97,
+  pregunta: "¿Qué miden las medidas de dispersión como la desviación estándar?",
+  respuestas: [
+    "El valor más frecuente",
+    "Qué tan separados están los datos respecto al promedio",
+    "El tipo de variable",
+    "La simetría de la distribución"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Las medidas de dispersión indican qué tan esparcidos están los datos alrededor de la media."
+},
+{
+  id: 98,
+  pregunta: "Si un conjunto de datos tiene asimetría cercana a 0, podemos decir que la distribución es:",
+  respuestas: [
+    "Asimétrica positiva",
+    "Asimétrica negativa",
+    "Aproximadamente simétrica",
+    "Totalmente plana"
+  ],
+  respuestaCorrecta: 2,
+  explicacion: "Un coeficiente de asimetría cercano a 0 indica simetría aproximada."
+},
+{
+  id: 99,
+  pregunta: "¿Cuál es la principal diferencia entre simetría y curtosis?",
+  respuestas: [
+    "Simetría describe el equilibrio de los datos, curtosis describe qué tan puntiaguda es la distribución",
+    "Ambas miden exactamente lo mismo",
+    "La simetría solo sirve para histogramas",
+    "La curtosis solo sirve para promedios"
+  ],
+  respuestaCorrecta: 0,
+  explicacion: "La simetría se relaciona con el equilibrio izquierda-derecha y la curtosis con la forma (altura o achatamiento)."
+},
+{
+  id: 100,
+  pregunta: "¿Por qué es útil estudiar la forma de una distribución?",
+  respuestas: [
+    "Para decorar los gráficos",
+    "Para entender mejor el comportamiento de los datos y tomar mejores decisiones",
+    "Para eliminar la media",
+    "Para evitar usar medianas"
+  ],
+  respuestaCorrecta: 1,
+  explicacion: "Conocer la forma de la distribución ayuda a interpretar los datos y a tomar decisiones más informadas."
 }
+
 
 
 
